@@ -34,7 +34,6 @@ class Program
 
         int number1 = int.Parse(parts[0]);
         int number2 = int.Parse(parts[1]);
-
         string op = operators.FirstOrDefault(input.Contains);
 
         switch (op)
